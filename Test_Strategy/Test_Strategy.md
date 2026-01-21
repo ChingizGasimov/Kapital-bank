@@ -1,57 +1,104 @@
 # Test Strategy – Kapital Bank Website
 
 ## 1. Purpose
-The purpose of this Test Strategy is to define the overall testing approach, scope, resources, and timeline for testing the Kapital Bank official website.
+The purpose of this Test Strategy is to define the testing approach, scope, environments, risks, and non-functional coverage for the Kapital Bank website.
 
 ## 2. Project Overview
-The website under test is the official Kapital Bank website:
+The system under test is the official Kapital Bank public website:
 https://www.kapitalbank.az
 
-The website provides information about banking products such as cards, loans, deposits, and online banking services.
+The website provides informational banking services including cards, credits, deposits, and online banking access.
 
-## 3. Scope of Testing
+## 3. Test Environments and Limitations
+
+### Test Environment
+- Used for functional, exploratory, negative, and regression testing
+- No impact on real users
+- Full testing scope allowed
+
+### Production Environment
+Testing on production is limited due to:
+- Presence of real users
+- Real financial and business data
+- Legal and reputational risks
+
+Allowed on Production:
+- Smoke testing
+- Content verification
+- Navigation checks
+- UI and responsiveness validation
+
+Not Allowed on Production:
+- Destructive testing
+- Performance stress testing
+- Security attack simulations
+- Form submission with real data
+
+## 4. Scope of Testing
 
 ### In Scope
-- Homepage
-- Cards section
-- Credits (Loans) section
-- Deposits section
-- Online Banking page
-- Contact and branch information pages
+- User-facing website features
+- Navigation and content availability
+- UI behavior and responsiveness
 
 ### Out of Scope
 - Backend systems
+- Core banking systems
 - Mobile applications
-- Third-party integrations
+- Third-party payment processing
 
-## 4. Test Types
-The following types of testing will be performed:
-- Functional Testing
-- UI Testing
-- Smoke Testing
-- Regression Testing
-- Cross-browser Testing
+## 5. Test Types and Approach
 
-## 5. Test Environment
-- Browsers: Google Chrome, Mozilla Firefox
-- Operating System: Windows 10/11
-- Test Environment: Production website
+### Functional Testing
+Verification of main user flows and feature behavior.
 
-## 6. Test Tools
-- Test case documentation: GitHub Markdown files
+### Exploratory Testing
+Ad-hoc testing to identify unexpected issues without predefined test cases.
+
+### Negative Testing
+Validation of system behavior with invalid inputs and incorrect user actions.
+
+### UI & Responsiveness Testing
+Verification of correct layout and usability across different screen resolutions and browsers.
+
+### Content Testing
+Validation of text accuracy, consistency, and correctness of banking information.
+
+## 6. Non-Functional Testing (Basic Level)
+
+### Performance (Basic)
+- Page load time observation
+- Verification that pages load without delays or errors
+
+### Security (Basic)
+- HTTPS availability
+- No sensitive data exposed in UI
+- Basic access control validation
+
+### Accessibility (Basic)
+- Readability of text
+- Contrast between text and background
+- Basic keyboard navigation checks
+
+## 7. Test Tools
+- Documentation: GitHub Markdown
 - Bug tracking: GitHub Issues
 - Diagram creation: draw.io
 
-## 7. Entry Criteria
-- Test environment is accessible
-- Requirements are available
-- Test cases are prepared
+## 8. Entry Criteria
+- Website is accessible
+- Test environment is available
+- Test documentation is prepared
 
-## 8. Exit Criteria
-- All planned test cases are executed
-- Critical and major defects are fixed
-- Test summary report is prepared
+## 9. Exit Criteria
+- All planned tests are executed
+- No critical production-blocking defects
+- Test Summary Report prepared
 
-## 9. Risks
-- Changes in website content during testing
-- Limited access to internal system functionality
+## 10. Risks
+
+- Website changes during testing
+- Limited access to internal functionality
+- Production testing limitations
+- Browser-specific UI issues
+- Incomplete or outdated content
