@@ -1,61 +1,78 @@
-# Checklist – Kapital Bank Website
+Checklist – Kapital Bank Website (Short)
+## 1. General & Navigation
 
-## 1. Navigation & General UI
-- [ ] Website opens successfully
-- [ ] Homepage loads without errors
-- [ ] Main menu is visible and clickable
-- [ ] All menu links redirect to correct pages
-- [ ] Logo redirects to Homepage
-- [ ] No broken links are present
-- [ ] Page layout is not broken
+Website availability
 
-## 2. Cards Section
-- [ ] Cards section opens correctly
-- [ ] Debit Cards page is accessible
-- [ ] Credit Cards page is accessible
-- [ ] Card information is displayed correctly
-- [ ] Text content is readable
-- [ ] Buttons and links work correctly
+Homepage loading
 
-## 3. Credits Section
-- [ ] Credits section opens correctly
-- [ ] Loan information is displayed
-- [ ] No empty or broken blocks on the page
-- [ ] Navigation back to homepage works
+Main menu navigation
 
-## 4. Deposits Section
-- [ ] Deposits page opens successfully
-- [ ] Deposit information is visible
-- [ ] Page content matches menu selection
+Correct page redirections
+
+Logo redirection to homepage
+
+## 2. Cards
+
+Cards section accessibility
+
+Debit cards information display
+
+Credit cards information display
+
+Links and buttons functionality
+
+## 3. Credits
+
+Credits section accessibility
+
+Loan information visibility
+
+Correct page content loading
+
+## 4. Deposits
+
+Deposits section accessibility
+
+Deposit information display
+
+Navigation correctness
 
 ## 5. Online Banking
-- [ ] Online Banking page opens
-- [ ] Login button is visible
-- [ ] User is redirected to correct login page
-- [ ] No sensitive data is exposed
 
-## 6. Contacts & Branches
-- [ ] Contacts page opens
-- [ ] Contact information is displayed
-- [ ] Branch information is visible
-- [ ] Phone numbers and addresses are readable
+Online banking page availability
 
-## 7. Content Verification
-- [ ] Text content is correct and readable
-- [ ] No spelling or grammatical errors
-- [ ] Currency symbols are displayed correctly
-- [ ] Language consistency across pages
+Correct redirection to login page
+
+No sensitive data exposure
+
+## 6. Contacts
+
+Contacts page availability
+
+Contact and branch information display
+
+## 7. Content
+
+Text correctness and readability
+
+Language consistency
+
+Currency and numbers display
 
 ## 8. Responsiveness
-- [ ] Website displays correctly on desktop
-- [ ] Layout does not break on smaller screens
-- [ ] Text remains readable on all resolutions
+
+Correct display on desktop
+
+Layout stability on different screen sizes
 
 ## 9. Browser Compatibility
-- [ ] Website works correctly in Google Chrome
-- [ ] Website works correctly in Mozilla Firefox
 
-## 10. Production Smoke Checks
-- [ ] Website is accessible on production
-- [ ] Main pages open without errors
-- [ ] Navigation works correctly
+Correct behavior in Chrome
+
+Correct behavior in Firefox
+
+## 10. Production Smoke
+
+Website availability
+
+Main functionality accessibility
