@@ -1,0 +1,61 @@
+# Checklist – Kapital Bank Website
+
+## 1. Navigation & General UI
+- [ ] Website opens successfully
+- [ ] Homepage loads without errors
+- [ ] Main menu is visible and clickable
+- [ ] All menu links redirect to correct pages
+- [ ] Logo redirects to Homepage
+- [ ] No broken links are present
+- [ ] Page layout is not broken
+
+## 2. Cards Section
+- [ ] Cards section opens correctly
+- [ ] Debit Cards page is accessible
+- [ ] Credit Cards page is accessible
+- [ ] Card information is displayed correctly
+- [ ] Text content is readable
+- [ ] Buttons and links work correctly
+
+## 3. Credits Section
+- [ ] Credits section opens correctly
+- [ ] Loan information is displayed
+- [ ] No empty or broken blocks on the page
+- [ ] Navigation back to homepage works
+
+## 4. Deposits Section
+- [ ] Deposits page opens successfully
+- [ ] Deposit information is visible
+- [ ] Page content matches menu selection
+
+## 5. Online Banking
+- [ ] Online Banking page opens
+- [ ] Login button is visible
+- [ ] User is redirected to correct login page
+- [ ] No sensitive data is exposed
+
+## 6. Contacts & Branches
+- [ ] Contacts page opens
+- [ ] Contact information is displayed
+- [ ] Branch information is visible
+- [ ] Phone numbers and addresses are readable
+
+## 7. Content Verification
+- [ ] Text content is correct and readable
+- [ ] No spelling or grammatical errors
+- [ ] Currency symbols are displayed correctly
+- [ ] Language consistency across pages
+
+## 8. Responsiveness
+- [ ] Website displays correctly on desktop
+- [ ] Layout does not break on smaller screens
+- [ ] Text remains readable on all resolutions
+
+## 9. Browser Compatibility
+- [ ] Website works correctly in Google Chrome
+- [ ] Website works correctly in Mozilla Firefox
+
+## 10. Production Smoke Checks
+- [ ] Website is accessible on production
+- [ ] Main pages open without errors
+- [ ] Navigation works correctly
