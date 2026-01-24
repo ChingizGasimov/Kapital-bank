@@ -33,7 +33,7 @@
 ## 6. Non-Functional (Basic)
 - Page loading speed
 - Responsive behavior (mobile/tablet)
-- Basic security (HTTPS, no sensitive data in UI)
+- Basic security
 - Basic accessibility (readable text, contrast)
 
 ## 7. Compatibility
