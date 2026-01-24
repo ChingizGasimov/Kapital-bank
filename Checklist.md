@@ -1,78 +1,54 @@
-Checklist – Kapital Bank
-1. General & Navigation
+# Checklist – Kapital Bank
 
-Website availability
+## 1. General & Navigation
+- Website availability
+- Homepage loading
+- Main menu navigation
+- Correct page redirections
+- Logo redirects to homepage
 
-Homepage loading
+## 2. Cards
+- Cards section accessibility
+- Debit cards information display
+- Credit cards information display
+- Links and buttons functionality
 
-Main menu navigation
+## 3. Credits
+- Credits section accessibility
+- Loan information visibility
+- Interest rates and conditions displayed
+- Application buttons functionality
 
-Correct page redirections
+## 4. Deposits
+- Deposits section availability
+- Deposit terms and conditions visibility
+- Calculator availability (if exists)
 
-Logo redirection to homepage
+## 5. Forms
+- Input validation
+- Mandatory fields behavior
+- Error messages clarity
+- Successful submission behavior
 
-2. Cards
+## 6. Non-Functional (Basic)
+- Page loading speed
+- Responsive behavior (mobile/tablet)
+- Basic security (HTTPS, no sensitive data in UI)
+- Basic accessibility (readable text, contrast)
 
-Cards section accessibility
+## 7. Compatibility
+- Correct display in different browsers (Chrome, Firefox, Edge)
+- Correct display on different screen sizes
+- Stable behavior on desktop and mobile devices
 
-Debit cards information display
+## 8. Error Handling
+- Correct error messages display
+- Validation messages are clear and understandable
+- No system errors shown to the user
 
-Credit cards information display
+## 9. Security (Basic)
+- HTTPS is used on all pages
+- No sensitive data displayed in UI
+- Input fields are protected from basic injections
 
-Links and buttons functionality
 
-3. Credits
-
-Credits section accessibility
-
-Loan information visibility
-
-Correct page content loading
-
-4. Deposits
-
-Deposits section accessibility
-
-Deposit information display
-
-Navigation correctness
-
-5. Online Banking
-
-Online banking page availability
-
-Correct redirection to login page
-
-No sensitive data exposure
-
-6. Contacts
-
-Contacts page availability
-
-Contact and branch information display
-
-7. Content
-
-Text correctness and readability
-
-Language consistency
-
-Currency and numbers display
-
-8. Responsiveness
-
-Correct display on desktop
-
-Layout stability on different screen sizes
-
-9. Browser Compatibility
-
-Correct behavior in Chrome
-
-Correct behavior in Firefox
-
-10. Production Smoke
-
-Website availability
-
-Main functionality accessibility
