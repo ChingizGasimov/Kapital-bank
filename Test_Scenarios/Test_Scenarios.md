@@ -1,17 +1,15 @@
-Kapital Bank – Test Scenarios
-Project Overview
+# Kapital Bank – Test Scenarios
+
+## Project Overview
 
 This document contains high-level test scenarios designed for testing the public website of Kapital Bank (for practice purposes only).
 
 The goal of this project is to demonstrate manual QA skills including:
 
-Functional Testing
-
-Negative Testing
-
-Input Validation
-
-UI Verification
+- Functional Testing
+- Negative Testing
+- Input Validation
+- UI Verification
 
 🔐 Login Page – Test Scenarios
 
