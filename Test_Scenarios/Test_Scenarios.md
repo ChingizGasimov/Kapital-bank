@@ -24,7 +24,6 @@ TS-03	Login should not be possible with empty input fields
 TS-04	“Forgot Password” link should redirect to the correct recovery page
 TS-05	Proper error message should be displayed when invalid credentials are entered
 TS-06	Account should be temporarily locked after multiple failed login attempts
-
 💳 Credit Calculator – Test Scenarios
 
 Business logic and input validation testing.
@@ -35,7 +34,6 @@ TS-08	Error message should be displayed when zero or negative values are entered
 TS-09	Warning should be displayed when entered amount exceeds maximum loan limit
 TS-10	Calculation result should be displayed in correct format on the UI
 TS-11	Monthly payment should update correctly when loan period changes
-
 🔎 Search Function – Test Scenarios
 
 Testing the internal search functionality of the website.
